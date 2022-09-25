@@ -12,6 +12,7 @@ import { MiembrosComponent } from './miembros/miembros.component';
 import { HomeComponent } from './home/home.component';
 import { MapComponent } from './map/map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GoogleMapsModule } from '@angular/google-maps';
     ContribuirComponent,
     MiembrosComponent,
     HomeComponent,
-    MapComponent
+    MapComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
