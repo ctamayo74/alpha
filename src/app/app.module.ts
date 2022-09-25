@@ -9,6 +9,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CreenciasComponent } from './creencias/creencias.component';
 import { ContribuirComponent } from './contribuir/contribuir.component';
 import { MiembrosComponent } from './miembros/miembros.component';
+import { HomeComponent } from './home/home.component';
+import { MapComponent } from './map/map.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,15 @@ import { MiembrosComponent } from './miembros/miembros.component';
     NavbarComponent,
     CreenciasComponent,
     ContribuirComponent,
-    MiembrosComponent
+    MiembrosComponent,
+    HomeComponent,
+    MapComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,33 @@
+.slider-image {
+  height: 80vh;
+}
+
+hr.rounded {
+  border-top: 8px solid blue;
+  border-radius: 5px;
+  background:blue;
+}
+
+#flex-container {
+  display: flex;
+  background-color: #33FFD1;
+}
+
+#flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.tab {
+  text-align: right;
+  tab-size: 30px;
+  margin-left: 250px;
+}
+
+.map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+}

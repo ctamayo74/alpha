@@ -1,0 +1,14 @@
+<!--<p>map works!</p>-->
+<google-map height="400px"
+            width="100 %"
+            [center]="center"
+            [zoom]="zoom"
+            (mapClick)="addMarker($event)">
+  <map-marker #marker ="mapMarker"
+            *ngFor="let markerPosition of markerPositions"
+            [position]="markerPosition"
+            (mapClick)="openInfoWindow(marker)"></map-marker>
+  <map-info-window><h2>ILFAD</h2></map-info-window>
+</google-map>
+
+
